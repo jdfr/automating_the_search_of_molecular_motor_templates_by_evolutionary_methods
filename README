@@ -1,0 +1,16 @@
+This is a snapshot of the code used for the paper "Automating the search of molecular motor templates by evolutionary methods" with DOI https://doi.org/10.1016/j.biosystems.2011.07.002
+
+The code was run in Matlab R2007b and requires some third-party code from the Matlab FileExchange:
+
+* stoploop.m: to be able to bail out of lengthy simulations when executing MATLAB with a GUI
+
+* mergesorted.m: to efficiently sort arrays
+
+* imcapture.m: to capture screenshots from figures
+
+* cylinder2P.m: draw cylinders in 3D plots
+
+Originally, this code was in a SVN repository. This is a snapshot of the SVN repo just before publication.
+
+The main script for running simulations was doEvoRuns.m. There is a lot of dead code, since this code was slowly adapted over time, and different versions were used for different papers and works. The most relevant code (including utilities to analyze the results) is in folder dynatom/exp_molmot/*, but there are lots of relevant code elsewhere. In particular, the experiments for the paper were mainly run in the Picasso computer cluster from the SCBI (www.scbi.uma.es), and the relevant code is in the folder GaGeneric/*
+
