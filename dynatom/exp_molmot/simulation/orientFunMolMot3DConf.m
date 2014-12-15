@@ -1,0 +1,1 @@
+function orient = orientFunMolMot3DConf(ss); orient = size(ss.pos,1)-1; end
