@@ -12,5 +12,7 @@ The code was run in Matlab R2007b and requires some third-party code from the Ma
 
 Originally, this code was in a SVN repository. This is a snapshot of the SVN repo just before publication.
 
+The LICENSE file contains the licensed under which the original parts of the source code are licensed. In a drive to harmonize licensing terms over all my repositories for journal papers, the license has been updated to the AGPLv3. DISCLAIMER: If any file in this repository contains source code from a third party (such as any code from the Matlab File Exchange that might have been inadvertedly included), the aforementioned license does not cover it, and it is licensed under its original terms and conditions.
+
 The main script for running simulations was doEvoRuns.m. There is a lot of dead code, since this code was slowly adapted over time, and different versions were used for different papers and works. The most relevant code (including utilities to analyze the results) is in folder dynatom/exp_molmot/*, but there are lots of relevant code elsewhere. In particular, the experiments for the paper were mainly run in the Picasso computer cluster from the SCBI (www.scbi.uma.es), and the relevant code is in the folder GaGeneric/*
 
